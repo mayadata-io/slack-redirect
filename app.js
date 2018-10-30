@@ -9,12 +9,10 @@ function handleRedirect(req, res) {
 }
 
 app.get("/", handleRedirect);
-app.get('*', (req, res) => {
-    res.send('Not Found!')
-})
+app.get('*', (req, res) =>  res.send('Not Found!'));
+
 
 //change the value here if you're using a different port num
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(` Server is running on port ${PORT}`);
-});
+app.listen(PORT, () => console.log(` Server is running on port ${PORT}`));
+
