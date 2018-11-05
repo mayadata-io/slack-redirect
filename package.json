@@ -1,7 +1,7 @@
 {
   "name": "slack-redirect",
   "version": "1.0.0",
-  "description": "This redirect to slack invite link",
+  "description": "Redirects default slack invite link to an OpenEBS-specific one",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
