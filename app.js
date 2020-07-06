@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const targetUrl = 'https://openebs-community.slack.com/join/shared_invite/enQtNjcyMDI4NTc4MzQyLTA5MWYyZDQ3ZmE0MWU0YjU0ZDM5ZjlmNjNiNzhjMDNjMjk4MmQ0MDM3OGRmODczZDVhYjlmMzYzZWI2ZWYxNGQ';
+const targetUrl = 'https://join.slack.com/t/kubera-community/shared_invite/zt-fpabc5tw-S2s~Uq8_F_lsR_6D2QoKyQ';
 
 
 //call back function
